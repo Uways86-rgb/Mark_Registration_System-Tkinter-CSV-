@@ -16,6 +16,7 @@ class MarkRegistrationSystem:
         self.root.geometry("1650x870")  # Width * Length
         self.tree = ttk.Treeview(root)
 
+
         # Add a flag to track if marks have been updated
         self.marks_updated = False
 
